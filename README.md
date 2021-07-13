@@ -7,3 +7,5 @@ You can send a POST message to http://localhost:8000/api/messages in `text/plain
 To start all services, run the `docker compose up -d` command, and to check the logs, just run the command `docker logs <consumer-container-name>`.
 
 To send the message, you can use the request from the `requests.http` file.
+
+For an interesting video for understanding Kafka itself, watch this video: https://www.youtube.com/watch?v=R873BlNVUB4
