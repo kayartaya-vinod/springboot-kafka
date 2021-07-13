@@ -1,0 +1,5 @@
+POST /api/messages
+Host: localhost:8000
+Content-Type: text/plain
+
+"This is a test message"

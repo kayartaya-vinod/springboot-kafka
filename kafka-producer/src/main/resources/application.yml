@@ -1,0 +1,10 @@
+server:
+    port: 8000
+spring:
+    application:
+        name: Kafka-message-producer
+    kafka:
+        producer:
+            bootstrap-servers: 'kafka:9092'
+            key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+            value-deserializer: org.apache.kafka.common.serialization.StringDeserializer

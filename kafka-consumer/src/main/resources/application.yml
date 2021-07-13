@@ -1,0 +1,12 @@
+server:
+    port: 8001
+spring:
+    application:
+        name: Kafka-message-producer
+    kafka:
+        consumer:
+            bootstrap-servers: 'kafka:9092'
+            group-id: demogroup
+            auto-offset-reset: earliest
+            key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+            value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
